@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B90AA58D15C61BC400823ADB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90AA58C15C61BC400823ADB /* Cocoa.framework */; };
+		B90AA59715C61BC400823ADB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B90AA59515C61BC400823ADB /* InfoPlist.strings */; };
+		B90AA59915C61BC400823ADB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B90AA59815C61BC400823ADB /* main.m */; };
+		B90AA59D15C61BC400823ADB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B90AA59B15C61BC400823ADB /* Credits.rtf */; };
+		B90AA5A015C61BC400823ADB /* ALAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B90AA59F15C61BC400823ADB /* ALAppDelegate.m */; };
+		B90AA5A315C61BC400823ADB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B90AA5A115C61BC400823ADB /* MainMenu.xib */; };
+		B90AA5B515C61D3600823ADB /* tomato-off.png in Resources */ = {isa = PBXBuildFile; fileRef = B90AA5B315C61D3600823ADB /* tomato-off.png */; };
+		B90AA5B615C61D3600823ADB /* tomato-on.png in Resources */ = {isa = PBXBuildFile; fileRef = B90AA5B415C61D3600823ADB /* tomato-on.png */; };
+		B9277F0A15C62818004677EF /* domat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B9277F0915C62818004677EF /* domat.jpg */; };
+		B9B5249015C622BF004EDAE4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B9B5248F15C622BF004EDAE4 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B90AA58815C61BC400823ADB /* PomodoroMinima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PomodoroMinima.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90AA58C15C61BC400823ADB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B90AA58F15C61BC400823ADB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B90AA59015C61BC400823ADB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B90AA59115C61BC400823ADB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B90AA59415C61BC400823ADB /* PomodoroMinima-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PomodoroMinima-Info.plist"; sourceTree = "<group>"; };
+		B90AA59615C61BC400823ADB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B90AA59815C61BC400823ADB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B90AA59A15C61BC400823ADB /* PomodoroMinima-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PomodoroMinima-Prefix.pch"; sourceTree = "<group>"; };
+		B90AA59C15C61BC400823ADB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B90AA59E15C61BC400823ADB /* ALAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALAppDelegate.h; sourceTree = "<group>"; };
+		B90AA59F15C61BC400823ADB /* ALAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALAppDelegate.m; sourceTree = "<group>"; };
+		B90AA5A215C61BC400823ADB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B90AA5B315C61D3600823ADB /* tomato-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tomato-off.png"; sourceTree = "<group>"; };
+		B90AA5B415C61D3600823ADB /* tomato-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tomato-on.png"; sourceTree = "<group>"; };
+		B9277F0915C62818004677EF /* domat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = domat.jpg; sourceTree = "<group>"; };
+		B9B5248F15C622BF004EDAE4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B90AA58515C61BC400823ADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90AA58D15C61BC400823ADB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B90AA57D15C61BC400823ADB = {
+			isa = PBXGroup;
+			children = (
+				B9277F0915C62818004677EF /* domat.jpg */,
+				B9B5248F15C622BF004EDAE4 /* README.md */,
+				B90AA59215C61BC400823ADB /* PomodoroMinima */,
+				B90AA58B15C61BC400823ADB /* Frameworks */,
+				B90AA58915C61BC400823ADB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B90AA58915C61BC400823ADB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B90AA58815C61BC400823ADB /* PomodoroMinima.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B90AA58B15C61BC400823ADB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B90AA58C15C61BC400823ADB /* Cocoa.framework */,
+				B90AA58E15C61BC400823ADB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B90AA58E15C61BC400823ADB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B90AA58F15C61BC400823ADB /* AppKit.framework */,
+				B90AA59015C61BC400823ADB /* CoreData.framework */,
+				B90AA59115C61BC400823ADB /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B90AA59215C61BC400823ADB /* PomodoroMinima */ = {
+			isa = PBXGroup;
+			children = (
+				B90AA59E15C61BC400823ADB /* ALAppDelegate.h */,
+				B90AA59F15C61BC400823ADB /* ALAppDelegate.m */,
+				B90AA5A115C61BC400823ADB /* MainMenu.xib */,
+				B90AA59315C61BC400823ADB /* Supporting Files */,
+			);
+			path = PomodoroMinima;
+			sourceTree = "<group>";
+		};
+		B90AA59315C61BC400823ADB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B90AA5B315C61D3600823ADB /* tomato-off.png */,
+				B90AA5B415C61D3600823ADB /* tomato-on.png */,
+				B90AA59415C61BC400823ADB /* PomodoroMinima-Info.plist */,
+				B90AA59515C61BC400823ADB /* InfoPlist.strings */,
+				B90AA59815C61BC400823ADB /* main.m */,
+				B90AA59A15C61BC400823ADB /* PomodoroMinima-Prefix.pch */,
+				B90AA59B15C61BC400823ADB /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B90AA58715C61BC400823ADB /* PomodoroMinima */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B90AA5A615C61BC400823ADB /* Build configuration list for PBXNativeTarget "PomodoroMinima" */;
+			buildPhases = (
+				B90AA58415C61BC400823ADB /* Sources */,
+				B90AA58515C61BC400823ADB /* Frameworks */,
+				B90AA58615C61BC400823ADB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PomodoroMinima;
+			productName = PomodoroMinima;
+			productReference = B90AA58815C61BC400823ADB /* PomodoroMinima.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B90AA57F15C61BC400823ADB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AL;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Accent Labs";
+			};
+			buildConfigurationList = B90AA58215C61BC400823ADB /* Build configuration list for PBXProject "PomodoroMinima" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B90AA57D15C61BC400823ADB;
+			productRefGroup = B90AA58915C61BC400823ADB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B90AA58715C61BC400823ADB /* PomodoroMinima */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B90AA58615C61BC400823ADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90AA59715C61BC400823ADB /* InfoPlist.strings in Resources */,
+				B90AA59D15C61BC400823ADB /* Credits.rtf in Resources */,
+				B90AA5A315C61BC400823ADB /* MainMenu.xib in Resources */,
+				B90AA5B515C61D3600823ADB /* tomato-off.png in Resources */,
+				B90AA5B615C61D3600823ADB /* tomato-on.png in Resources */,
+				B9B5249015C622BF004EDAE4 /* README.md in Resources */,
+				B9277F0A15C62818004677EF /* domat.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B90AA58415C61BC400823ADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90AA59915C61BC400823ADB /* main.m in Sources */,
+				B90AA5A015C61BC400823ADB /* ALAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B90AA59515C61BC400823ADB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B90AA59615C61BC400823ADB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B90AA59B15C61BC400823ADB /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B90AA59C15C61BC400823ADB /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B90AA5A115C61BC400823ADB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B90AA5A215C61BC400823ADB /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B90AA5A415C61BC400823ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = PomodoroMinima;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B90AA5A515C61BC400823ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = PomodoroMinima;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B90AA5A715C61BC400823ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEPLOYMENT_POSTPROCESSING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PomodoroMinima/PomodoroMinima-Prefix.pch";
+				INFOPLIST_FILE = "PomodoroMinima/PomodoroMinima-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B90AA5A815C61BC400823ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEPLOYMENT_POSTPROCESSING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PomodoroMinima/PomodoroMinima-Prefix.pch";
+				INFOPLIST_FILE = "PomodoroMinima/PomodoroMinima-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B90AA58215C61BC400823ADB /* Build configuration list for PBXProject "PomodoroMinima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B90AA5A415C61BC400823ADB /* Debug */,
+				B90AA5A515C61BC400823ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B90AA5A615C61BC400823ADB /* Build configuration list for PBXNativeTarget "PomodoroMinima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B90AA5A715C61BC400823ADB /* Debug */,
+				B90AA5A815C61BC400823ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B90AA57F15C61BC400823ADB /* Project object */;
+}
